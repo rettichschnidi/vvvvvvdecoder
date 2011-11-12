@@ -7,6 +7,7 @@ Install
 =======
 
 with cmake:
+
 	cd vvvvvvdecoder
 	mkdir build
 	cd build
@@ -14,6 +15,7 @@ with cmake:
 	make
 
 without cmake:
+
 	g++ vvvvvvdecoder.cpp -o vvvvvvdecoder -lboost_filesystem -lboost_program_options
 
 Requirements
